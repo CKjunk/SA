@@ -324,7 +324,7 @@
             <wLevel>0</wLevel>
             <uThumb>0</uThumb>
             <uSurpInc>0</uSurpInc>
-            <uC99>0</uC99>
+            <uC99>1</uC99>
             <uGnu>0</uGnu>
             <useXO>0</useXO>
             <v6Lang>0</v6Lang>
@@ -338,7 +338,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER,STM32F429_439xx,</Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include;..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc;..\..\User;..\..\Libraries\CMSIS\Include;..\..\User\time</IncludePath>
+              <IncludePath>..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include;..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc;..\..\User;..\..\Libraries\CMSIS\Include;..\..\User\time;..\..\User\sequence;..\..\User\key;..\..\User\usart_dma;..\..\User\adc_dma;..\..\User\led;..\..\User\usart;..\..\User\HadamardOutput;..\..\User\systick</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -682,6 +682,26 @@
               <FileName>bsp_time.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\User\time\bsp_time.c</FilePath>
+            </File>
+            <File>
+              <FileName>key.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\User\key\key.c</FilePath>
+            </File>
+            <File>
+              <FileName>usart_dma.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\User\usart_dma\usart_dma.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_led.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\User\led\bsp_led.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_SysTick.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\User\systick\bsp_SysTick.c</FilePath>
             </File>
           </Files>
         </Group>

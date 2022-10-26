@@ -42,3 +42,11 @@
 ..\..\output\stm32f4xx_it.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\..\output\stm32f4xx_it.o: ..\..\User\./time/bsp_time.h
 ..\..\output\stm32f4xx_it.o: ..\..\User\./adc/bsp_adc.h
+..\..\output\stm32f4xx_it.o: ..\..\User\./key/key.h
+..\..\output\stm32f4xx_it.o: ..\..\User\./adc_dma/adc_dma.h
+..\..\output\stm32f4xx_it.o: ..\..\User\./usart_dma/usart_dma.h
+..\..\output\stm32f4xx_it.o: ..\..\User\./HadamardOutput/bsp_dma_gpio.h
+..\..\output\stm32f4xx_it.o: ..\..\User\./sequence/sequence.h
+..\..\output\stm32f4xx_it.o: ..\..\User\./systick/bsp_SysTick.h
+..\..\output\stm32f4xx_it.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\output\stm32f4xx_it.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
